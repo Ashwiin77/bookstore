@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CIVIL Book Catalogue</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f9f4;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .catalogue-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2e7d32;
+      border-bottom: 2px solid #2e7d32;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #e6ffe6;
+      margin: 10px 0;
+      padding: 15px 20px;
+      border-left: 5px solid #2e7d32;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    li:hover {
+      background: #d2f8d2;
+      transform: scale(1.02);
+    }
+
+    .author {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="catalogue-container">
+    <h2>CIVIL Book Catalogue</h2>
+    <ul>
+      <li>
+        <a href="strength_of_materials.html">
+          <strong>Strength of Materials</strong>
+          <div class="author">by R.K. Bansal</div>
+        </a>
+      </li>
+      <li>
+        <a href="html_in_24_hours.html">
+          <strong>HTML in 24 Hours</strong>
+          <div class="author">by Sam Peter</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

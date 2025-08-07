@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EEE Book Catalogue</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fbfd;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .catalogue-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #b35c00;
+      border-bottom: 2px solid #b35c00;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #fff5e6;
+      margin: 10px 0;
+      padding: 15px 20px;
+      border-left: 5px solid #b35c00;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    li:hover {
+      background: #ffe0b3;
+      transform: scale(1.02);
+    }
+
+    a {
+      color: #b35c00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .author {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="catalogue-container">
+    <h2>EEE Book Catalogue</h2>
+    <ul>
+      <li><a href="electrical_machines.html" target="rightFrame">Electrical Machines</a> <div class="author">by P.S. Bimbhra</div></li>
+      <li><a href="java2.html" target="rightFrame">Java 2</a> <div class="author">by Watson</div></li>
+      <li><a href="power_system_analysis.html" target="rightFrame">Power System Analysis</a> <div class="author">by Hadi Saadat</div></li>
+      
+    </ul>
+  </div>
+</body>
+</html>

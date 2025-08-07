@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ECE Book Catalogue</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fbfd;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .catalogue-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0056b3;
+      border-bottom: 2px solid #0056b3;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #e6f0ff;
+      margin: 10px 0;
+      padding: 15px 20px;
+      border-left: 5px solid #0056b3;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    li:hover {
+      background: #d6e9ff;
+      transform: scale(1.02);
+    }
+
+    a {
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: bold;
+    }
+
+    .author {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="catalogue-container">
+    <h2>ECE Book Catalogue</h2>
+    <ul>
+      <li>
+        <a href="edc.html" target="rightFrame">Electronic Devices and Circuit Theory</a>
+        <div class="author">by Robert L. Boylestad</div>
+      </li>
+      <li>
+        <a href="ai.html" target="rightFrame">AI</a>
+        <div class="author">by S. Russel</div>
+      </li>
+      <li>
+        <a href="micro.html" target="rightFrame">Microelectronic Circuits</a>
+        <div class="author">by Sedra and Smith</div>
+      </li>
+      <li>
+        <a href="digital.html" target="rightFrame">Digital Design</a>
+        <div class="author">by M. Morris Mano</div>
+      </li>
+      <li>
+        <a href="signals.html" target="rightFrame">Signals and Systems</a>
+        <div class="author">by Alan V. Oppenheim</div>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
